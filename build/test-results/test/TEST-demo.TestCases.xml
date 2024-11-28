@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="demo.TestCases" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-11-28T20:02:50" hostname="Surya-ROG" time="57.053">
+  <properties/>
+  <testcase name="testCase01" classname="demo.TestCases" time="16.796"/>
+  <testcase name="testCase02" classname="demo.TestCases" time="15.344"/>
+  <testcase name="testCase03" classname="demo.TestCases" time="24.913"/>
+  <system-out><![CDATA[Constructor: Driver
+Successfully Created Driver
+Beginning Test Case 01
+Sending Keys
+Flow 1 success
+Clicking
+Flow 2 success
+Printing products with more with certain attribute
+Found Titles: 2 and attribute 2
+LG 8 kg Semi Automatic Top Load Washing Machine White, Maroon has a attribute of 4.4
+Godrej 8 kg With AI Tech, Steam Wash Fully Automatic Front Load Washing Machine with In-built Heater W... has a attribute of 4.0
+Ending Test Case 01
+Beginning Test Case 02
+Sending Keys
+Flow 1 success
+Printing products with more with certain attribute
+Found Titles: 24 and attribute 21
+Mismatch in size of array
+Apple iPhone 15 (Black, 128 GB) has a attribute of 15.0
+Apple iPhone 15 (Green, 128 GB) has a attribute of 16.0
+Apple iPhone 15 (Pink, 128 GB) has a attribute of 15.0
+Apple iPhone 15 (Blue, 128 GB) has a attribute of 15.0
+Apple iPhone 15 Plus (Blue, 128 GB) has a attribute of 18.0
+Apple iPhone 15 Plus (Black, 128 GB) has a attribute of 18.0
+Apple iPhone 15 Plus (Green, 128 GB) has a attribute of 18.0
+Apple iPhone 15 Plus (Pink, 128 GB) has a attribute of 18.0
+Apple iPhone 15 (Yellow, 128 GB) has a attribute of 16.0
+Apple iPhone 15 (Pink, 256 GB) has a attribute of 13.0
+Apple iPhone 15 (Green, 256 GB) has a attribute of 13.0
+Apple iPhone 15 Plus (Green, 256 GB) has a attribute of 14.0
+Apple iPhone 15 (Blue, 256 GB) has a attribute of 13.0
+Apple iPhone 16 (Ultramarine, 256 GB) has a attribute of 26.0
+Apple iPhone 15 Pro Max (White Titanium, 512 GB) has a attribute of 13.0
+Apple iPhone 16 (Teal, 256 GB) has a attribute of 29.0
+Apple iPhone 15 (Yellow, 256 GB) has a attribute of 21.0
+Apple iPhone 15 Pro (Natural Titanium, 1 TB) has a attribute of 14.0
+Apple iPhone 16 (Black, 256 GB) has a attribute of 26.0
+Apple iPhone 16 (Black, 128 GB) has a attribute of 14.0
+Apple iPhone 16 (Ultramarine, 128 GB) has a attribute of 15.0
+Ending Test Case 02
+Beginning Test Case 03
+Sending Keys
+Clicking
+Exception Occured! Expected condition failed: waiting for visibility of element located by By.xpath: //div[text()='4â˜… & above']//ancestor::div[1]//div[1] (tried for 10 second(s) with 500 milliseconds interval)
+Printing products with more with certain attribute
+Found Titles: 40 and attribute 29
+Mismatch in size of array, modifying to adjut
+Thiwa Tea/Milk Lid Cup Unbreakable Double Wall Hot and ...
+Kimaya Double Wall Vacuum Insulated Stainless Steel 304...
+JustBlu Tea-Coffee Edition, Coffee Tea Cups Set, Cup fo...
+THE HATKE STORE Photo & Text Printed Magic Cup For Birt...
+Thiwa Double Wall Stainless Steel Tea Coffee Solid Morn...
+Ending Test Case 03
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 4942
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 4942.
+Nov 29, 2024 1:32:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
