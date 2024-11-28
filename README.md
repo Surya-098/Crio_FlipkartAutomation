@@ -1,52 +1,39 @@
-# Selenium Boilerplate: 
-   This java project contains the essentials to get started with selenium quickly without having to go through the hassle of downloading individual dependencies one by one. 
+QA Assignment - Automate Flipkart
 
-## What does this project use?
-   This project uses gradle , webdriver manager , selenium v4 
+Follow this checklist to complete your assignment. It has
+Boilerplate code for you to clone
+Local Setup Instructions
+Guidelines for a good automation project!
+Make sure to rename the folder and link to your personal git repository. Push once to confirm.
+Introduction
+Automate the flipkart website and return the count of items with different Star ratings, Prices and number of Reviews
+Scenario
+(Setup) [Setup Link] Integrate TestNG framework with the boilerplate by
+Modifying Build.Gradle file
+Introducing testng.xml file
+Go to www.flipkart.com. Search “Washing Machine”. Sort by popularity and print the count of items with rating less than or equal to 4 stars.
 
-## Pre-requesites: 
-   * git: https://github.com/git-guides/install-git
-   * Java : https://www.java.com/en/download/help/download_options.html
-   * Gradle: https://docs.gradle.org/current/userguide/installation.html
+Search “iPhone”, print the Titles and discount % of items with more than 17% discount
 
-## Getting started: 
+Search “Coffee Mug”, select 4 stars and above, and print the Title and image URL of the 5 items with highest number of reviews
 
-   1. clone this repo to your machine using git clone
-   2. To build the project: 
-   _MacOS_ / _Linux_
-         ```
-         ./gradlew build
-         ```
-      _Windows_
-      ```
-      gradlew.bat build
-      ```
+Note: 
+Use Wrapper for each Action.
+Each Flow should be a TestNG Test
+Submission required
+Submit your Github Repository links in the text area in the activity provided. Make sure the repository is public and appropriately named.
 
-   3. To run the project: 
-   _MacOS_ / _Linux_
-      ```
-      ./gradlew run
-      ```
-      _Windows_
-      ```
-      gradlew.bat run
-      ```
-## Writing your test case:
-
-   *Test cases are part of the /src/main/java/demo/TestCases.java file.*
-   ### Defining new test case: 
-   1. Open TestCases.java file
-   2. Create a copy of the function testCase01()
-   3. Update the contents of the newly created method with your own custom logic
-
-   ### Calling the newly created test case:
-   1. open /src/App.java
-   2. notice the TODO block: 
-   ```
-   //TODO: call your test case functions one after other here
-   ```
-   3. Call the newly created methods under the TODO block
-
-
-
-
+Prerequisites:
+Java
+Java Data Handling (Using Hashmaps)
+Selenium
+Locators
+Xpath
+Buttons
+Text Box
+Hyperlink
+Waits
+Exceptions
+Chained XPath
+TestNG
+Keyboard and Mouse Actions
